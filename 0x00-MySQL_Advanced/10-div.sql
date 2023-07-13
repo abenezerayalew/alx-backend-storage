@@ -1,3 +1,4 @@
+-- create table users with unique users
 DROP FUNCTION IF EXISTS SafeDiv;
 DELIMITER $$
 CREATE FUNCTION SafeDiv (a INT, b INT)

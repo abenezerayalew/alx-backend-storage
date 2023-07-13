@@ -1,3 +1,4 @@
+-- create table users with unique users
 DROP TRIGGER IF EXISTS validate_email;
 DELIMITER $$
 CREATE TRIGGER validate_email
